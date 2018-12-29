@@ -37,8 +37,8 @@ namespace DolphinDB.Reader.MsSql
             Console.WriteLine("take over into memory!");
             DateTime dt_st2 = DateTime.Now;
             Console.WriteLine((dt_st2 - dt_st1).Seconds);
-      
-            
+            Console.ReadLine();
+
             //List<String> colNames = new List<string>();
             //foreach (var col in firstRow.Columns)
             //{
@@ -66,26 +66,26 @@ namespace DolphinDB.Reader.MsSql
             //}
             //BasicTable bt = new BasicTable(colNames, cols);
 
-            Console.WriteLine("starting upload data!");
-            DateTime dt_end1 = DateTime.Now;
-          
-            DBConnection conn = new DBConnection();
-            conn.connect("192.168.1.135", 8981, "admin", "123456");
+            //Console.WriteLine("starting upload data!");
+            //DateTime dt_end1 = DateTime.Now;
 
-            var variable = new Dictionary<string, IEntity>() ;
-            variable.Add("table1", bt);
-            conn.upload(variable);
-            conn.run("share table1 as sql_table");
-            DateTime dt_end2 = DateTime.Now;
+            //DBConnection conn = new DBConnection();
+            //conn.connect("192.168.1.135", 8981, "admin", "123456");
 
-            TimeSpan readtime = dt_end1 - dt_st1;
-            TimeSpan uploadtime = dt_end2 - dt_end1;
+            //var variable = new Dictionary<string, IEntity>() ;
+            //variable.Add("table1", bt);
+            //conn.upload(variable);
+            //conn.run("share table1 as sql_table");
+            //DateTime dt_end2 = DateTime.Now;
 
-            Console.WriteLine("read cost : ");
-            Console.WriteLine(readtime.TotalSeconds);
-            Console.WriteLine("upload cost : ");
-            Console.WriteLine(uploadtime.TotalSeconds);
-            Console.ReadLine();
+            //TimeSpan readtime = dt_end1 - dt_st1;
+            //TimeSpan uploadtime = dt_end2 - dt_end1;
+
+            //Console.WriteLine("read cost : ");
+            //Console.WriteLine(readtime.TotalSeconds);
+            //Console.WriteLine("upload cost : ");
+            //Console.WriteLine(uploadtime.TotalSeconds);
+            //Console.ReadLine();
         }
 
         static IVector getColumn(OrcaMDF.Core.MetaData.ColumnType colType,int count)
