@@ -39,6 +39,9 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="dolphindb_csharpapi">
+      <HintPath>..\..\..\api-csharp\dolphindb_csharpapi\bin\Debug\dolphindb_csharpapi.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
@@ -52,6 +55,7 @@
     <Compile Include="Engine\CompressionLevel.cs" />
     <Compile Include="Engine\Database.cs" />
     <Compile Include="Engine\DataScanner.cs" />
+    <Compile Include="Engine\DDB_DataScanner.cs" />
     <Compile Include="Engine\ExtentPointer.cs" />
     <Compile Include="Engine\IndexScanner.cs" />
     <Compile Include="Engine\Pages\ClusteredIndexPage.cs" />

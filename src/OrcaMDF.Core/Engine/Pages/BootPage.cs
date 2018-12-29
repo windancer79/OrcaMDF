@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Text;
 
 namespace OrcaMDF.Core.Engine.Pages
@@ -51,8 +51,8 @@ namespace OrcaMDF.Core.Engine.Pages
 			
 			// Truncate name at first 0x2020 char
 			DatabaseName = Encoding.Unicode.GetString(bootRecord, 48, 256);
-			if (DatabaseName.IndexOf('†') > 0)
-				DatabaseName = DatabaseName.Substring(0, DatabaseName.IndexOf('†'));
+			if (DatabaseName.IndexOf('â€ ') > 0)
+				DatabaseName = DatabaseName.Substring(0, DatabaseName.IndexOf('â€ '));
 
 			DBID = BitConverter.ToInt16(bootRecord, 308);
 			MaxDBTimeStamp = BitConverter.ToInt64(bootRecord, 312);

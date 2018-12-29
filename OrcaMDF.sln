@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrcaMDF.Core", "src\OrcaMDF.Core\OrcaMDF.Core.csproj", "{829A5C51-CB21-4DE2-9021-44F6D804D231}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrcaMDF.Core.Tests", "src\OrcaMDF.Core.Tests\OrcaMDF.Core.Tests.csproj", "{C6062A74-A3B2-4102-84D4-A658AA8011B3}"
@@ -19,6 +21,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrcaMDF.Framework", "src\OrcaMDF.Framework\OrcaMDF.Framework.csproj", "{4D581CDB-A39C-4C0C-AE2C-6A3070B8983C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrcaMDF.Framework.Tests", "src\OrcaMDF.Framework.Tests\OrcaMDF.Framework.Tests.csproj", "{8D1AA5C3-74C2-4041-8F1D-303376D81584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DolphinDB.Reader.MsSql", "DolphinDB.Reader.MsSql\DolphinDB.Reader.MsSql.csproj", "{808C8DCA-1AAF-4AA7-85BA-12AF003144CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -100,6 +104,18 @@ Global
 		{8D1AA5C3-74C2-4041-8F1D-303376D81584}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{8D1AA5C3-74C2-4041-8F1D-303376D81584}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{8D1AA5C3-74C2-4041-8F1D-303376D81584}.Release|x86.ActiveCfg = Release|Any CPU
+		{808C8DCA-1AAF-4AA7-85BA-12AF003144CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808C8DCA-1AAF-4AA7-85BA-12AF003144CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808C8DCA-1AAF-4AA7-85BA-12AF003144CB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{808C8DCA-1AAF-4AA7-85BA-12AF003144CB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{808C8DCA-1AAF-4AA7-85BA-12AF003144CB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{808C8DCA-1AAF-4AA7-85BA-12AF003144CB}.Debug|x86.Build.0 = Debug|Any CPU
+		{808C8DCA-1AAF-4AA7-85BA-12AF003144CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808C8DCA-1AAF-4AA7-85BA-12AF003144CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{808C8DCA-1AAF-4AA7-85BA-12AF003144CB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{808C8DCA-1AAF-4AA7-85BA-12AF003144CB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{808C8DCA-1AAF-4AA7-85BA-12AF003144CB}.Release|x86.ActiveCfg = Release|Any CPU
+		{808C8DCA-1AAF-4AA7-85BA-12AF003144CB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

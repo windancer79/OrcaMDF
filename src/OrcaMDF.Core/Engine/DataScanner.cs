@@ -5,6 +5,7 @@ using OrcaMDF.Core.Engine.Pages.PFS;
 using OrcaMDF.Core.Engine.Records.Parsers;
 using OrcaMDF.Core.MetaData;
 using OrcaMDF.Core.MetaData.Enumerations;
+using dolphindb.data;
 
 namespace OrcaMDF.Core.Engine
 {
@@ -24,10 +25,10 @@ namespace OrcaMDF.Core.Engine
 			return scanTable(tableName, schema);
 		}
 
-		/// <summary>
-		/// Will scan any table - heap or clustered - and return an IEnumerable of typed rows with data & schema
-		/// </summary>
-		internal IEnumerable<TDataRow> ScanTable<TDataRow>(string tableName) where TDataRow : Row, new()
+        /// <summary>
+        /// Will scan any table - heap or clustered - and return an IEnumerable of typed rows with data & schema
+        /// </summary>
+        internal IEnumerable<TDataRow> ScanTable<TDataRow>(string tableName) where TDataRow : Row, new()
 		{
 			var schema = new TDataRow();
 
