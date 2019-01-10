@@ -22,11 +22,11 @@ namespace OrcaMDF.Core.Engine
         public BasicTable ScanTable(string tableName,int size = 1000)
         {
             var schema = MetaData.GetEmptyDataRow(tableName);
-            cols = getAllColumn(schema, size);
+            
             return scanTable(tableName, schema);
         }
 
-        private List<IVector> getAllColumn(DataRow schema,int size)
+        private List<IVector> getAllColumn(Row schema,int size)
         {
             List<IVector> lst = new List<IVector>();
             foreach (var col in schema.Columns)
@@ -134,6 +134,11 @@ namespace OrcaMDF.Core.Engine
 
         private BasicTable scanTable(string tableName, Row schema)
         {
+
+            long tbid = Database.BaseTables.sysschobjs.Where(x => x.name == tableName).SingleOrDefault().id;
+            long rowsetid = Database.BaseTables.sysidxstats.Where(x => x.id == tbid).SingleOrDefault().rowset;
+            long size = Database.BaseTables.sysrowsets.Where(x => x.rowsetid == rowsetid).SingleOrDefault().rcrows;
+            cols = getAllColumn(schema, (int)size);
             // Get object
             var tableObject = Database.BaseTables.sysschobjs
                 .Where(x => x.name == tableName)

@@ -50,3 +50,16 @@ F:\Source\openSource\OrcaMDF\DolphinDB.Reader.MsSql\bin\Debug\OrcaMDF.Core.pdb
 F:\Source\openSource\OrcaMDF\DolphinDB.Reader.MsSql\bin\Debug\OrcaMDF.RawCore.pdb
 F:\Source\openSource\OrcaMDF\DolphinDB.Reader.MsSql\bin\Debug\dolphindb_csharpapi.pdb
 F:\Source\openSource\OrcaMDF\DolphinDB.Reader.MsSql\bin\Debug\OrcaMDF.Framework.pdb
+D:\Work\Dophin\openSource\OrcaMDF\DolphinDB.Reader.MsSql\bin\Debug\DolphinDB.Reader.MsSql.exe.config
+D:\Work\Dophin\openSource\OrcaMDF\DolphinDB.Reader.MsSql\bin\Debug\DolphinDB.Reader.MsSql.exe
+D:\Work\Dophin\openSource\OrcaMDF\DolphinDB.Reader.MsSql\bin\Debug\DolphinDB.Reader.MsSql.pdb
+D:\Work\Dophin\openSource\OrcaMDF\DolphinDB.Reader.MsSql\bin\Debug\OrcaMDF.Core.dll
+D:\Work\Dophin\openSource\OrcaMDF\DolphinDB.Reader.MsSql\bin\Debug\OrcaMDF.RawCore.dll
+D:\Work\Dophin\openSource\OrcaMDF\DolphinDB.Reader.MsSql\bin\Debug\OrcaMDF.Framework.dll
+D:\Work\Dophin\openSource\OrcaMDF\DolphinDB.Reader.MsSql\bin\Debug\OrcaMDF.Core.pdb
+D:\Work\Dophin\openSource\OrcaMDF\DolphinDB.Reader.MsSql\bin\Debug\OrcaMDF.RawCore.pdb
+D:\Work\Dophin\openSource\OrcaMDF\DolphinDB.Reader.MsSql\bin\Debug\dolphindb_csharpapi.pdb
+D:\Work\Dophin\openSource\OrcaMDF\DolphinDB.Reader.MsSql\bin\Debug\OrcaMDF.Framework.pdb
+D:\Work\Dophin\openSource\OrcaMDF\DolphinDB.Reader.MsSql\obj\Debug\DolphinDB.Reader.MsSql.csprojResolveAssemblyReference.cache
+D:\Work\Dophin\openSource\OrcaMDF\DolphinDB.Reader.MsSql\obj\Debug\DolphinDB.Reader.MsSql.exe
+D:\Work\Dophin\openSource\OrcaMDF\DolphinDB.Reader.MsSql\obj\Debug\DolphinDB.Reader.MsSql.pdb

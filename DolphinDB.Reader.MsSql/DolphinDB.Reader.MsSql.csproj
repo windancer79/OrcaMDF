@@ -48,8 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ParserTask.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadTask.cs" />
+    <Compile Include="RowQueue.cs" />
+    <Compile Include="UploadTask.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
